@@ -27,6 +27,8 @@
     [self sayGoodMorning];
     [self sayByeBye];
     [self masterBranchMethod];
+    
+    NSLog(@"Tag 1.0.0 commit");
 }
 
 -(void)masterBranchMethod
