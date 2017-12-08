@@ -24,10 +24,13 @@
     // Do any additional setup after loading the view, typically from a nib.
     NSLog(@"viewDidLoad");
     [self sayHello];
+    [self sayByeBye];
 }
 
 -(void)sayHello{
     NSLog(@"Hello");
+-(void)sayByeBye{
+    NSLog(@"Bye - Bye");
 }
 
 - (void)didReceiveMemoryWarning {
