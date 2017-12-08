@@ -26,6 +26,12 @@
     [self sayHello];
     [self sayGoodMorning];
     [self sayByeBye];
+    [self masterBranchMethod];
+}
+
+-(void)masterBranchMethod
+{
+     NSLog(@"masterBranchMethod");
 }
 
 -(void)sayGoodMorning

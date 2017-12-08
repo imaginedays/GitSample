@@ -14,6 +14,9 @@
 -(void)sayHello;
 -(void)sayGoodMorning;
 
--(void)sayByeBye; 
+-(void)sayByeBye;
+
+-(void)masterBranchMethod;
+
 @end
 
