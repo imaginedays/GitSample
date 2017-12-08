@@ -24,11 +24,18 @@
     // Do any additional setup after loading the view, typically from a nib.
     NSLog(@"viewDidLoad");
     [self sayHello];
+    [self sayGoodMorning];
     [self sayByeBye];
+}
+
+-(void)sayGoodMorning
+{
+     NSLog(@"sayGoodMorning");
 }
 
 -(void)sayHello{
     NSLog(@"Hello");
+}
 -(void)sayByeBye{
     NSLog(@"Bye - Bye");
 }
