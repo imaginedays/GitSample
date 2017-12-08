@@ -11,7 +11,8 @@
 
 @interface ViewController : UIViewController
 
--(void)sayHello; 
+-(void)sayHello;
+-(void)sayGoodMorning;
 
 @end
 
