@@ -15,6 +15,7 @@
 		42D476A81FDA2D9A00ADB597 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D476A71FDA2D9A00ADB597 /* main.m */; };
 		42D476B21FDA2D9A00ADB597 /* GitSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D476B11FDA2D9A00ADB597 /* GitSampleTests.m */; };
 		42D476BD1FDA2D9A00ADB597 /* GitSampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D476BC1FDA2D9A00ADB597 /* GitSampleUITests.m */; };
+		42D476CC1FDA384300ADB597 /* TestClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D476CB1FDA384300ADB597 /* TestClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		42D476B81FDA2D9A00ADB597 /* GitSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		42D476BC1FDA2D9A00ADB597 /* GitSampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitSampleUITests.m; sourceTree = "<group>"; };
 		42D476BE1FDA2D9A00ADB597 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42D476CA1FDA384300ADB597 /* TestClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestClass.h; sourceTree = "<group>"; };
+		42D476CB1FDA384300ADB597 /* TestClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				42D476A31FDA2D9A00ADB597 /* LaunchScreen.storyboard */,
 				42D476A61FDA2D9A00ADB597 /* Info.plist */,
 				42D476A71FDA2D9A00ADB597 /* main.m */,
+				42D476CA1FDA384300ADB597 /* TestClass.h */,
+				42D476CB1FDA384300ADB597 /* TestClass.m */,
 			);
 			path = GitSample;
 			sourceTree = "<group>";
@@ -265,6 +270,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42D476CC1FDA384300ADB597 /* TestClass.m in Sources */,
 				42D4769D1FDA2D9A00ADB597 /* ViewController.m in Sources */,
 				42D476A81FDA2D9A00ADB597 /* main.m in Sources */,
 				42D4769A1FDA2D9A00ADB597 /* AppDelegate.m in Sources */,
